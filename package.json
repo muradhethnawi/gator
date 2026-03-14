@@ -1,0 +1,25 @@
+{
+  "name": "muradhethnawi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.3.5",
+    "drizzle-kit": "^0.31.9",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.45.1",
+    "fast-xml-parser": "^5.5.5",
+    "postgres": "^3.4.8",
+    "undici-types": "^7.18.2"
+  }
+}
