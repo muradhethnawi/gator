@@ -7,3 +7,9 @@ my-project/
 webflyx
 webflyx-local
 *.tar.gz
+.config/
+.bashrc
+.bash_history
+.profile
+.nvm/
+.cache/
