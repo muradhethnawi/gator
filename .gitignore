@@ -1,0 +1,9 @@
+node_modules/
+.npm/
+.local/
+Downloads/
+support-ai/
+my-project/
+webflyx
+webflyx-local
+*.tar.gz
