@@ -31,7 +31,6 @@ export async function fetchFeed(url: string): Promise<RSSFeed> {
     throw new Error("No channel found in RSS feed");
   }
 
-  // Extract Metadata
   const feed: RSSFeed = {
     title: channel.title,
     link: channel.link,
@@ -39,15 +38,12 @@ export async function fetchFeed(url: string): Promise<RSSFeed> {
     items: [],
   };
 
-  // Ensure metadata is valid
   if (!feed.title || !feed.link || !feed.description) {
     throw new Error("Missing required feed metadata");
   }
 
-  // Handle Items
   let itemsList: any[] = [];
   if (channel.item) {
-    // If there's only one item, fast-xml-parser returns an object, not an array
     itemsList = Array.isArray(channel.item) ? channel.item : [channel.item];
   }
 
