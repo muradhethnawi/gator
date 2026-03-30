@@ -1,1 +1,0 @@
-/home/muradhethnawi/.local/opt/go-bin-v1.25.6
