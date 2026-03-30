@@ -23,7 +23,6 @@ async function agg() {
     console.log(`--- Fetching: ${url} ---`);
     const feed = await fetchFeed(url);
     
-    // Print the entire object to verify the structure
     console.log(feed);
     
     console.log("--- Success ---");
